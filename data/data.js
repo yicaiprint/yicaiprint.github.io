@@ -235,3 +235,5 @@ $("#sidebar-menu-ul li").click(function () {
 });
 
 $($("#sidebar-menu-ul").children("li")[0]).trigger("click");
+
+$('.box-body img').zoomify();

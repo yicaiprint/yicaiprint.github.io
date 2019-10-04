@@ -1,13 +1,13 @@
 var sidebarMenuArr = [
     {
-        domId: "be8f251f3374f6a97b5442e10bb04de6",
+        domId: $be8f251f3374f6a97b5442e10bb04de6,
         content: "不干胶",
         active: true,
         level: false
     },
 
     {
-        domId: "102d512294550db05429bfb5a63dbc19",
+        domId: $102d512294550db05429bfb5a63dbc19,
         content: "PVC卡",
         active: false,
         level: false
@@ -208,7 +208,7 @@ $(".treeview-menu > li").unbind().click(function (e) {
 $("#sidebar-menu-ul li").click(function () {
     var domId = $(this)[0].id;
 
-    // if (domId == '102d512294550db05429bfb5a63dbc19') {
+    // if (domId == $102d512294550db05429bfb5a63dbc19) {
     //     $("#main-content").html("PVC卡");
     // } else
     if (domId == '') {
@@ -224,7 +224,7 @@ $("#sidebar-menu-ul li").click(function () {
                         '</div>' +
                     '</div>' +
                     '<div class="box-body">' +
-                        '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" data-action="zoom">' +
+                        '<img class="img-responsive pad" src="' + domId + '" alt="" data-action="zoom">' +
                    '</div>' +
                 '</div>' +
             '</div>' +

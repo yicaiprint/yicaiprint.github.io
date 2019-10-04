@@ -224,7 +224,7 @@ $("#sidebar-menu-ul li").click(function () {
                         '</div>' +
                     '</div>' +
                     '<div class="box-body">' +
-                        '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" data-action="zoom">' +
+                        '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" >' +
                    '</div>' +
                 '</div>' +
             '</div>' +

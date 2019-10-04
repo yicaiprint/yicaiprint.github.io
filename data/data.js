@@ -224,7 +224,7 @@ $("#sidebar-menu-ul li").click(function () {
                         '</div>' +
                     '</div>' +
                     '<div class="box-body">' +
-                        '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" >' +
+                        '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" data-action="zoom">' +
                    '</div>' +
                 '</div>' +
             '</div>' +
@@ -235,5 +235,3 @@ $("#sidebar-menu-ul li").click(function () {
 });
 
 $($("#sidebar-menu-ul").children("li")[0]).trigger("click");
-
-$('.box-body img').zoomify();

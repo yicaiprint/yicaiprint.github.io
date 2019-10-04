@@ -216,17 +216,7 @@ $("#sidebar-menu-ul li").click(function () {
     } else {
         var contHtml = '<div class="row">' +
             '<div class="col-md-6">' +
-                '<div class="box box-widget">' +
-                    '<div class="box-header with-border" style="border-bottom: 0;">' +
-                        '<div class="box-tools" style="top: -4px;">' +
-                            '<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>' +
-                            '</button>' +
-                        '</div>' +
-                    '</div>' +
-                    '<div class="box-body">' +
-                        '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" data-action="zoom">' +
-                   '</div>' +
-                '</div>' +
+                '<img class="img-responsive pad" src="./data/img/' + domId + '.jpg" alt="" data-action="zoom">' +
             '</div>' +
         '</div>';
 
